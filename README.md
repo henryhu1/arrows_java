@@ -18,7 +18,7 @@ space: shoot arrow
 ```
 
 ## Power-ups
-`POWERUPS` may randomly appear after an arrow is shot. Hit the icons with an arrow for a special affect!
+`POWERUPS` may randomly appear after an arrow is shot. Hit the icons with an arrow for a special effect!
 
 * ![health](core/assets/health.png) restores one health point for the player who shot it
 * ![triple](core/assets/three.png) on contact, instantly creates two arrows that fly in the same direction as the originally shot arrow
