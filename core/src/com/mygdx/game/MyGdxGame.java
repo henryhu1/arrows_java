@@ -104,29 +104,29 @@ public class MyGdxGame extends ApplicationAdapter implements InputProcessor {
 		rand = new Random();
 		intersect = new Intersector();
 
-		clouds = new Texture("Clouds.jpg");
+		clouds = new Texture("core/assets/Clouds.jpg");
 		cloudssprite = new Sprite(clouds);
 		cloudssprite.setSize(1024, 768);//sets size to cover entire background
 
-		font = new BitmapFont(Gdx.files.internal("pokemonGB.fnt"));//gets specialized font form assets
+		font = new BitmapFont(Gdx.files.internal("core/assets/pokemonGB.fnt"));//gets specialized font form assets
 		font.getData().setScale(1f);//changes the size of the font
 
-		pokemon = Gdx.audio.newMusic(Gdx.files.internal("Pokémon Diamond  Pearl - Route 209 (Day).mp3"));//loads up the background music
+		pokemon = Gdx.audio.newMusic(Gdx.files.internal("core/assets/Pokémon Diamond  Pearl - Route 209 (Day).mp3"));//loads up the background music
 		pokemon.setLooping(true);//makes it so if the music ends it loops again
 		pokemon.setVolume(0.5f);//sets the volume so it's not too loud
 		pokemon.play();//plays the music as soon as the program begins
 
-		p1body = new Texture("p1 body.png");
-		p1bow = new Texture("p1 bow.png");
-		p1head = new Texture("p1 head.png");
+		p1body = new Texture("core/assets/p1 body.png");
+		p1bow = new Texture("core/assets/p1 bow.png");
+		p1head = new Texture("core/assets/p1 head.png");
 
-		p2body = new Texture("p2 body.png");
-		p2bow = new Texture("p2 bow.png");
-		p2head = new Texture("p2 head.png");
+		p2body = new Texture("core/assets/p2 body.png");
+		p2bow = new Texture("core/assets/p2 bow.png");
+		p2head = new Texture("core/assets/p2 head.png");
 
-		triplePU = new Texture("three.png");
-		healPU = new Texture("health.png");
-		projectile = new Texture("arrow.png");
+		triplePU = new Texture("core/assets/three.png");
+		healPU = new Texture("core/assets/health.png");
+		projectile = new Texture("core/assets/arrow.png");
 
 		p1sprite = new Sprite(p1body);
 		p1sprite.setSize(50, 70);//sets size to a smaller size

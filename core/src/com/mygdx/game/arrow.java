@@ -37,8 +37,8 @@ public class arrow{
         xSpeed = (int)(mouse_x/arcHypotenuse*(power/2));
         ySpeed = (int)(mouse_y/arcHypotenuse*(power/2));
         stop = false; //arrow will be flying
-        bowRelease = Gdx.audio.newSound(Gdx.files.internal("bowrelease.mp3"));
-        arrowHit = Gdx.audio.newSound(Gdx.files.internal("arrowhit.mp3"));
+        bowRelease = Gdx.audio.newSound(Gdx.files.internal("core/assets/bowrelease.mp3"));
+        arrowHit = Gdx.audio.newSound(Gdx.files.internal("core/assets/arrowhit.mp3"));
     }
 
     public arrow(arrow existing, int newX, int newY, int place){
